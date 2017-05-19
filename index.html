@@ -25,7 +25,26 @@ a:active {
 }
 
 
+body {margin:0;}
 
+	
+/*fixed top menu */	
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -144,6 +163,7 @@ body {font-family: Verdana,sans-serif;}
 </head>
 <body>
 <div class="header-wrapper">
+<div class="navbar">	
 <img src="rcmrd-logo-update.png" alt="Mountain View" style="width:300px;height:100px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 
 <a href="index.html" target="_parent">HOME</a> &nbsp&nbsp
@@ -153,6 +173,7 @@ body {font-family: Verdana,sans-serif;}
 <a href="News.html" target="_parent">NEWS AND EVENTS</a> &nbsp&nbsp
 <a href="Contactus.html" target="_parent">CONTACT US</a> <br />&nbsp&nbsp
 </div>
+</div>	
 
 
 <div class="slideshow-container">
